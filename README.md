@@ -14,6 +14,8 @@ Middle is being calculated first, then, binary search is used to find the square
 In binary search, the code compares the square of the mid value with the given square in each step, if square of the mid value matches the given square then, it returns the mid value (square root) else if the given square is not a perfect square then it will return the mid value of a perfect square which is close to the given square. Only floor values are considered. 
 
 Contains while loop. 
+
 Time Complexity: O(logn) where n is the given square root
+
 Space Complexity: O(1) only variables are used to store data which are instant
 
